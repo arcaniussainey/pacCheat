@@ -4,11 +4,24 @@ var x = prompt("what would you like to do")
 function Score(amount){
     increaseScore(amount)    
 }
+function changeQ(){
+	window.nextq
+	
+}
 function answer(){
     alert(correctAns)   
 }
-function restartGhost(){
+function Cheat(){
+	window.addFruits()
 
+}
+function AlwaysCorrect(){
+	// W.I.P
+	window.correctAns=true
+
+}
+function restartGhost(){
+	window.ghost
 	
 }
 function freeze(){
@@ -18,6 +31,9 @@ function freeze(){
 function unfreeze(){
 	window.moveGhost=1
 	
+}
+function levels(){
+	window.levelUp()
 }
 function admin(){
 	authorType="administrator"
@@ -35,6 +51,10 @@ if (x == "stop"){
 	freeze()
 	function moveGhost(){}
 
+}
+if (x == "fruit"){
+	Cheat()
+	
 }
 
 
