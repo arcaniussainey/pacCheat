@@ -44,7 +44,7 @@ function admin(){
 if (x == "Points"){
 	var y = prompt("How many points")
 	var x = Number(y)
-	console.log(x)
+	return(x)
 	Score(x)
 }
 if (x == "stop"){
